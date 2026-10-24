@@ -1,7 +1,7 @@
 /*
     Write a program that convert the temperature in degree Fahrenheit 
-    to degree Celsius. The program will display the degree Celsius in two 
-    decimal places. Celsius = (Fahrenheit – 32) / 1.8 
+    to degree Celsius. The program will display the degree Celsius in 
+    two decimal places. Celsius = (Fahrenheit – 32) / 1.8 
 */
 
 package lab2;

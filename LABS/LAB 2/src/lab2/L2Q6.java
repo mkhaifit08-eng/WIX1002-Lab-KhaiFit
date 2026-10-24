@@ -5,6 +5,7 @@
     Q = Energy in joules 
     The temperature are in degree Celsius
 */
+
 package lab2;
 
 import java.util.Scanner;
@@ -22,5 +23,6 @@ public class L2Q6 {
         T1 = (T1 - 32)*5.0/9.0;
         double Q = M * (T1-T0) * 4184;
         System.out.printf("The energy needed is %e \n", Q);
+        input.close();
     }
 }
