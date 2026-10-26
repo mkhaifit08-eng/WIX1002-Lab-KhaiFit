@@ -8,6 +8,7 @@ public class T2Q7{
         inch= input.nextDouble();
         m = inch *2.54/100;
         System.out.printf("%.2f inches = %.2f meters \n", inch, m);
+        input.close();
     }
             
 }

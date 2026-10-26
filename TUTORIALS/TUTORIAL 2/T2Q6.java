@@ -8,5 +8,7 @@ public class T2Q6{
         s = Math.PI*d;
         System.out.printf("%s %.3f \n","The circumference of the circle is: ",
                 s);
+
+        input.close();
     }
 }
