@@ -1,12 +1,13 @@
 import java.util.Scanner;
 
 public class L3task{
+    
     public static void main(String[] Args){
         Scanner input = new Scanner(System.in);
         int [][] points =  new int[3][2];
 
         for(int i=0; i< points.length; i++){
-            System.out.print("Enter coordinate of point" + i + " (seperated by space instead of comma): ");
+            System.out.print("Enter coordinate of point " + (i+1) + " (seperated by space instead of comma): ");
             for(int j=0; j<points[i].length; j++){
                 points[i][j] = input.nextInt();
             }
@@ -40,7 +41,7 @@ public class L3task{
 
         boolean isBoomerang =  ((points[1][1] - points[0][1]) * (points[2][0] - points[0][0]) != (points[2][1] - points[0][1]) * (points[1][0] - points[0][0]));
 
-        System.out.print("\n Is the points are boomerang? " + isBoomerang);
+        System.out.println("\nIs the points are boomerang? " + isBoomerang);
 
         input.close();
     }
