@@ -32,6 +32,7 @@ public class L4Q2 {
         }
 
         System.out.println(sum);
+        System.out.println("Final Answer: " + sum);
         input.close();
     }
 }

@@ -8,7 +8,7 @@ package lab4;
 import java.util.Scanner;
 
 public class L4Q1 {
-
+    
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.print("Enter an Integer: ");
@@ -21,6 +21,7 @@ public class L4Q1 {
                 if(i != num) System.out.print(", ");
             }
         }
+        System.out.println();
 
         input.close();
     }

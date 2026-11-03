@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class L4Q3 {
     public static void main(String[] Args){
             Scanner input = new Scanner(System.in);
-            int min=0, max=0, sum=0, sumsq=0,score;
+            int min=Integer.MAX_VALUE, max=0, sum=0, sumsq=0,score;
             int n=0;
             double average, std_dev;
 
