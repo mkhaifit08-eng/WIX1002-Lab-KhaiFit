@@ -15,7 +15,7 @@ public class L4Q4 {
         Scanner input = new Scanner(System.in);
 
         int year, first_day_year;
-        int current_day, days;
+        int current_day;
         int mayFirstDay, augustFirstDay;
 
         // INPUT
@@ -34,14 +34,10 @@ public class L4Q4 {
         first_day_year = input.nextInt();
 
         // DETERMINE LEAP YEAR
-        boolean leapYear = (year % 400 == 0) ||
-                           (year % 4 == 0 && year % 100 != 0);
+        boolean leapYear = (year % 400 == 0) || (year % 4 == 0 && year % 100 != 0);
 
         // STORE THE NUMBER OF DAYS IN EACH MONTH
-        int[] daysInMonth = {
-            31, 28, 31, 30, 31, 30,
-            31, 31, 30, 31, 30, 31
-        };
+        int[] daysInMonth = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 
         if (leapYear) {
             daysInMonth[1] = 29;
