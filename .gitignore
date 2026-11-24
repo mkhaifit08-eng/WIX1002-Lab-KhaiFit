@@ -1,9 +1,17 @@
-/LABS/LAB3/nbproject/private/
-/LABS/LAB 3/nbproject/private/
-/LABS/LAB 3/build/
-/LABS/LAB 3/dist/
-/LABS/LAB4/nbproject/private/
-/LABS/LAB4/build/
-/LABS/Lab5/nbproject/private/
-/LABS/Lab6/nbproject/private/
-/LABS/Lab6/build/
+# Java compiled bytecode
+*.class
+
+# NetBeans / Ant build output
+**/build/
+**/dist/
+
+# NetBeans private configuration
+**/nbproject/private/
+
+# Java distribution packages
+*.jar
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
