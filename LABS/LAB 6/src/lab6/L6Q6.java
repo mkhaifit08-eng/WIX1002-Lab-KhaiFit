@@ -49,7 +49,7 @@ public class L6Q6 {
         int[] emirps = new int[20];
         int i = 0; // counter for palindromic
         int j = 0; // counter for emirps
-        int num = 2;
+        int num = 1;
 
         while(i < 20 || j < 20){
             boolean palindromic_status = isPalindromicPrime(num);
